@@ -1,5 +1,7 @@
-from abc import ABC, abstract class
+from abc import ABC, abstractmethod
+
 
 class Serviceable(ABC):
-  def needs_service(self):
-    pass
+    @abstractmethod
+    def needs_service(self):
+        pass
